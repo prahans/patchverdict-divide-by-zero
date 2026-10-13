@@ -13,4 +13,8 @@ npm test
 
 ## Bug description
 
+Copy this into PatchVerdict:
+
+```text
 The divide utility returns Infinity when the denominator is zero. Division by zero should be handled safely by returning 0, while normal division behavior must remain unchanged.
+```
