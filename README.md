@@ -10,3 +10,7 @@ The project exposes a `divide(a, b)` utility and a Vitest suite covering normal 
 npm install
 npm test
 ```
+
+## Bug description
+
+The divide utility returns Infinity when the denominator is zero. Division by zero should be handled safely by returning 0, while normal division behavior must remain unchanged.
